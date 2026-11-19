@@ -30,8 +30,8 @@ int intHumidity = 0;
 float currentTemp = 0.0;
 float currentHum = 0.0;
 
-const char* oidTemp = ".1.3.6.1.4.1.67727.1.1.0"; //OID da Temperatura
-const char* oidHum  = ".1.3.6.1.4.1.67727.1.2.0"; //OID da Umidade
+const char* oidTemp = ".1.3.6.1.4.1.32473.1.1.0"; //OID da Temperatura o PEN 32473 é utilizado somente para testes, para uso em produção é interessante registrar um PEN
+const char* oidHum  = ".1.3.6.1.4.1.32473.1.2.0"; //OID da Umidade
 
 unsigned long lastMillis = 0;
 
