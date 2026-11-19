@@ -2,7 +2,7 @@
 #include <WiFiUdp.h>
 #include <Wire.h>  // biblioteca controladora do I2C
 #include <SNMP_Agent.h>
-#include <ESPAsyncWebServer.h> // biblioteca assíncrona
+#include <ESPAsyncWebServer.h> // biblioteca para servidor de web assíncrono
 
 // Configurações do Wi-Fi
 const char* ssid = "SSID_IOT";
