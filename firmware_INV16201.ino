@@ -23,7 +23,7 @@ IPAddress primaryDNS(8, 8, 8, 8);   // DNS do Google
 AsyncWebServer server(80);
 
 // Configurações do SNMP
-SNMPAgent snmp("empresa_x"); 
+SNMPAgent snmp("empresax"); 
 WiFiUDP udp;
 
 int intTemperature = 0;
