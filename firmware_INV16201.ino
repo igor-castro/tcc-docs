@@ -31,8 +31,8 @@ int intHumidity = 0;
 float currentTemp = 0.0;
 float currentHum = 0.0;
 
-const char* oidTemp = ".1.3.6.1.4.1.32473.1.1.0";
-const char* oidHum  = ".1.3.6.1.4.1.32473.1.2.0";
+const char* oidTemp = ".1.3.6.1.4.1.32473.1.1.0"; // o PEN 32473 é um número privado voltado somente para teste
+const char* oidHum  = ".1.3.6.1.4.1.32473.1.2.0"; // o PEN 32473 é um número privado voltado somente para teste
 
 unsigned long lastMillis = 0;
 unsigned long lastWifiCheck = 0;
